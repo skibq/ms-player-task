@@ -1,6 +1,7 @@
 import { ActionTypes } from '../actions/player'
+import { defaultPlayerState } from "../player";
 
-const playerActions = (state, action) => {
+const playerActions = (state = defaultPlayerState, action) => {
   switch (action.type) {
     case ActionTypes.PLAY_MUSIC:
       return {...state, musicIsPlaying: true};
@@ -13,3 +14,4 @@ const playerActions = (state, action) => {
 };
 
 export default playerActions
+
