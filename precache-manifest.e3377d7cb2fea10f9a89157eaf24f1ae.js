@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0c9d5c69a383f276e74b5dda2c0450a1",
+    "revision": "2c8e7b0357e7d34b1618dac10946fb1d",
     "url": "/ms-player-task/index.html"
   },
   {
-    "revision": "902af1de0aa2466dfc20",
+    "revision": "953e7855a84a47fc480c",
     "url": "/ms-player-task/static/css/2.a121a8c0.chunk.css"
   },
   {
-    "revision": "6c02b9f6d82bf9006817",
+    "revision": "10a45287707d63fea3f7",
     "url": "/ms-player-task/static/css/main.c065469f.chunk.css"
   },
   {
-    "revision": "902af1de0aa2466dfc20",
-    "url": "/ms-player-task/static/js/2.5e2d7de6.chunk.js"
+    "revision": "953e7855a84a47fc480c",
+    "url": "/ms-player-task/static/js/2.1e19b1e5.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/ms-player-task/static/js/2.5e2d7de6.chunk.js.LICENSE.txt"
+    "url": "/ms-player-task/static/js/2.1e19b1e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6c02b9f6d82bf9006817",
-    "url": "/ms-player-task/static/js/main.8dec689b.chunk.js"
+    "revision": "10a45287707d63fea3f7",
+    "url": "/ms-player-task/static/js/main.7f4f08cd.chunk.js"
   },
   {
     "revision": "b9b6bff691bb894a2afb",
@@ -58,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "908e77adf0762e3ca48d8da50ad268d9",
     "url": "/ms-player-task/static/media/next_ico.908e77ad.svg"
+  },
+  {
+    "revision": "d560ea63609f1bd760297025444ffa79",
+    "url": "/ms-player-task/static/media/playlist_ico.d560ea63.svg"
   },
   {
     "revision": "61530e1d25eb1ef8ad5d7e15af9ac18a",
