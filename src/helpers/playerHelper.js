@@ -23,3 +23,15 @@ export const findPreviousSongIndex = (playlist, currentSongIndex) => {
 
   return currentSongIndex - 1;
 };
+
+export const markRandomSongAsCurrent = (playlist) => {
+  const randomRangeStart = 0;
+  const randomRangeEnd = playlist.length;
+
+  const randomIndex = Math.floor(Math.random() * randomRangeEnd) + randomRangeStart
+
+  return playlist.map((song, songIndex) => ({
+    ...song,
+    isCurrentSong: songIndex === randomIndex
+  }))
+};

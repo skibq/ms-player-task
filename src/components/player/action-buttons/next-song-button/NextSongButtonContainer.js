@@ -1,18 +1,9 @@
 import React from "react"
-import { connect } from "react-redux"
-import { switchToNextSong } from "../../../../store/actions/player";
 import NextSongButton from "./NextSongButton"
+import { playNextSuitableSong } from "../../playerLogic";
 
-const NextSongButtonContainer = ({onNextSongClick}) => {
-  return <NextSongButton onNextSongClick={onNextSongClick}/>
-};
+const NextSongButtonContainer = () => (
+  <NextSongButton onNextSongClick={() => playNextSuitableSong()}/>
+);
 
-const mapDispatchToProps = dispatch => {
-  return {
-    onNextSongClick: () => {
-      dispatch(switchToNextSong())
-    }
-  }
-};
-
-export default connect(null, mapDispatchToProps)(NextSongButtonContainer);
+export default NextSongButtonContainer;

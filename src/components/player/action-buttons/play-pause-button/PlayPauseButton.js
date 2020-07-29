@@ -33,6 +33,9 @@ const AnimatedIcon = styled(PositionedButtonImg)`
     opacity: 1;
   }
 `;
+const AnimatedActiveIcon = styled(AnimatedIcon)`
+  opacity: 0;
+`;
 const IconContainer = styled.div`
   position: relative;
 `;
@@ -48,16 +51,16 @@ const PlayPauseButton = ({musicIsPlaying, toggleMusic}) => {
     return <AnimatedIcon className="animated-button" src={basicIcon} isMusicPlaying={musicIsPlaying} alt="Active play button" />;
   };
   const ActiveIconWrapper = function() {
-    return <AnimatedIcon src={activeIcon} isMusicPlaying={musicIsPlaying} alt="Inactive play button" />;
+    return <AnimatedActiveIcon src={activeIcon} isMusicPlaying={musicIsPlaying} alt="Inactive play button" />;
   };
 
   return(
     <>
       <IconContainer>
-        <CSSTransition classNames={'animated-button'} in={musicIsPlaying} timeout={0}>
+        <CSSTransition classNames={'animated-button'} in={!musicIsPlaying} timeout={0}>
           <BasicIconWrapper/>
         </CSSTransition>
-        <CSSTransition classNames={'animated-button'} in={!musicIsPlaying} timeout={0}>
+        <CSSTransition classNames={'animated-button'} in={musicIsPlaying} timeout={0}>
           <ActiveIconWrapper />
         </CSSTransition>
 
