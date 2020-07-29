@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/ms-player-task/static/css/main.c065469f.chunk.css",
+    "main.js": "/ms-player-task/static/js/main.8dec689b.chunk.js",
+    "main.js.map": "/ms-player-task/static/js/main.8dec689b.chunk.js.map",
+    "runtime-main.js": "/ms-player-task/static/js/runtime-main.182a205b.js",
+    "runtime-main.js.map": "/ms-player-task/static/js/runtime-main.182a205b.js.map",
+    "static/css/2.a121a8c0.chunk.css": "/ms-player-task/static/css/2.a121a8c0.chunk.css",
+    "static/js/2.5e2d7de6.chunk.js": "/ms-player-task/static/js/2.5e2d7de6.chunk.js",
+    "static/js/2.5e2d7de6.chunk.js.map": "/ms-player-task/static/js/2.5e2d7de6.chunk.js.map",
+    "index.html": "/ms-player-task/index.html",
+    "precache-manifest.9b0315999f47c2f40e43fef85c52dc36.js": "/ms-player-task/precache-manifest.9b0315999f47c2f40e43fef85c52dc36.js",
+    "service-worker.js": "/ms-player-task/service-worker.js",
+    "static/css/2.a121a8c0.chunk.css.map": "/ms-player-task/static/css/2.a121a8c0.chunk.css.map",
+    "static/css/main.c065469f.chunk.css.map": "/ms-player-task/static/css/main.c065469f.chunk.css.map",
+    "static/js/2.5e2d7de6.chunk.js.LICENSE.txt": "/ms-player-task/static/js/2.5e2d7de6.chunk.js.LICENSE.txt",
+    "static/media/Play_active.png": "/ms-player-task/static/media/Play_active.21bddc70.png",
+    "static/media/Play_inactive.png": "/ms-player-task/static/media/Play_inactive.22f85b31.png",
+    "static/media/back_ico.c30a8eb5.svg": "/ms-player-task/static/media/back_ico.c30a8eb5.svg",
+    "static/media/bg_image.jpg": "/ms-player-task/static/media/bg_image.52d51b7d.jpg",
+    "static/media/index.css": "/ms-player-task/static/media/gilroy-extra-bold.0f6e082f.otf",
+    "static/media/gilroy-light.otf": "/ms-player-task/static/media/gilroy-light.c62aded7.otf",
+    "static/media/more_ico.68d542b2.svg": "/ms-player-task/static/media/more_ico.68d542b2.svg",
+    "static/media/next_ico.908e77ad.svg": "/ms-player-task/static/media/next_ico.908e77ad.svg",
+    "static/media/previous_ico.61530e1d.svg": "/ms-player-task/static/media/previous_ico.61530e1d.svg",
+    "static/media/repeat_ico.f24e6532.svg": "/ms-player-task/static/media/repeat_ico.f24e6532.svg",
+    "static/media/shuffle_ico.9cca0f11.svg": "/ms-player-task/static/media/shuffle_ico.9cca0f11.svg",
+    "static/media/slick-theme.css": "/ms-player-task/static/media/slick.f97e3bbf.svg",
+    "static/media/unreleased_cover.png": "/ms-player-task/static/media/unreleased_cover.a2195768.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.182a205b.js",
+    "static/css/2.a121a8c0.chunk.css",
+    "static/js/2.5e2d7de6.chunk.js",
+    "static/css/main.c065469f.chunk.css",
+    "static/js/main.8dec689b.chunk.js"
+  ]
+}
