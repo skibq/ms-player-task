@@ -15,6 +15,15 @@ export const findNextSongIndex = (playlist, currentSongIndex) => {
   return currentSongIndex + 1;
 };
 
+export const findNextSong = (playlist, currentSongIndex) => {
+  const isLastSongFromPlaylist = playlist.length - 1 === currentSongIndex;
+
+  if (isLastSongFromPlaylist)
+    return playlist[0];
+
+  return playlist[currentSongIndex + 1];
+};
+
 export const findPreviousSongIndex = (playlist, currentSongIndex) => {
   const isFirstSongPlaying = currentSongIndex === 0;
 

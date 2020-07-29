@@ -46,8 +46,8 @@ const ProgressLabel = styled.span`
   line-height: 14px;
 `;
 const ProgressWrapper = styled.div`
-  margin-top: 60px;
-  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;

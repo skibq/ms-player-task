@@ -11,7 +11,7 @@ export const defaultPlayerState = {
       album: "Unreleased1",
       artist: "Kanye West1",
       image: AlbumCover,
-      durationInSeconds: 30,
+      durationInSeconds: 300,
     },
     {
       title: "Self Conscious2",
@@ -19,21 +19,21 @@ export const defaultPlayerState = {
       artist: "Kanye West2",
       image: AlbumCover,
       isCurrentSong: true,
-      durationInSeconds: 28,
+      durationInSeconds: 280,
     },
     {
       title: "Self Conscious3",
       album: "Unreleased3",
       artist: "Kanye West3",
       image: AlbumCover,
-      durationInSeconds: 24,
+      durationInSeconds: 240,
     },
     {
       title: "Self Conscious4",
       album: "Unreleased4",
       artist: "Kanye West4",
       image: AlbumCover,
-      durationInSeconds: 22,
+      durationInSeconds: 220,
     }
   ]
 };

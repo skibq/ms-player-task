@@ -2,17 +2,20 @@ import React from "react"
 import styled from "styled-components"
 import PlayerHeader from "./header/Header"
 import backgroundImage from "../../images/player/bg_image.jpg"
-import SongsSliderContainer from "./songs-slider/SongsSliderContainer";
-import ActionButtons from "./action-buttons/ActionButtons";
+import SongsSliderContainer from "./songs-slider/SongsSliderContainer"
+import ActionButtons from "./action-buttons/ActionButtons"
 import SongInfo from "./song-info/SongInfo"
-import ProgressBarContainer from "./progress-bar/ProgressBarContainer";
+import ProgressBarContainer from "./progress-bar/ProgressBarContainer"
+import waveformImage from '../../images/player/waveform.png'
+import NextSongInfoContainer from "./next-song-info/NextSongInfoContainer"
 
 const StyledPlayer = styled.div`
   min-height: 100vh;
   overflow: hidden;
   position: relative;
   background-color: ${ (props) => props.theme.colors.darkViolet };
-  padding-bottom: 100px;
+  max-width: 576px;
+  margin: 0 auto;
 `;
 const BackgroundContainer = styled.div`
   position: absolute;
@@ -37,19 +40,26 @@ const Gradient = styled.div`
   position: absolute;
   background-image: linear-gradient(to top, ${ (props) => props.theme.colors.darkViolet }, rgba(0, 0, 0, 0));
 `;
+const WaveFormImage = styled.img`
+  display: block;
+`;
+
+const Waveform = () => <WaveFormImage src={waveformImage} alt="Waveform"/>
 
 const Player = ({playerState}) => {
   return(
     <StyledPlayer>
       <BackgroundContainer>
         <BackgroundImage src={backgroundImage} alt=""/>
-        <Gradient/>
+        <Gradient />
       </BackgroundContainer>
       <PlayerHeader albumTitle={playerState.currentSong.album}/>
       <SongsSliderContainer />
       <SongInfo title={playerState.currentSong.title} artist={playerState.currentSong.artist} />
       <ActionButtons/>
-      <ProgressBarContainer/>
+      <ProgressBarContainer />
+      <Waveform />
+      <NextSongInfoContainer />
     </StyledPlayer>
   );
 };
