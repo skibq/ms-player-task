@@ -36,7 +36,7 @@ const SeeMoreButton = styled.div`
   
 `;
 
-const Index = ({ albumTitle }) => {
+const Header = ({ albumTitle }) => {
   return(
     <HeaderWrapper>
       <BackButton>
@@ -53,4 +53,4 @@ const Index = ({ albumTitle }) => {
   );
 };
 
-export default Index;
+export default Header;

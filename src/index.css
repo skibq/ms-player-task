@@ -2,6 +2,10 @@
   font-family: 'Gilroy Light';
   src: local('Gilroy Light'), url(./fonts/gilroy-light.otf) format('truetype');
 }
+@font-face {
+  font-family: 'Gilroy Extra Bold';
+  src: local('Gilroy Extra Bold'), url(./fonts/gilroy-extra-bold.otf) format('truetype');
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
